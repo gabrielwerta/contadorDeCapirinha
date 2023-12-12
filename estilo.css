@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&family=Titillium+Web&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+main {
+    text-align: center;
+}
+img{
+    width: 15%;
+    margin-bottom: 10px;
+}
+
+h3{
+    color: white;
+    font-family: 'Silkscreen', sans-serif;
+    margin-bottom: 20px;
+
+}
+
+p{
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+}
+
+#card-central {
+ /* Adicione estilos específicos para o seu card aqui */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 500px;
+    background-color: #4B0082;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#conteudos-card{
+
+}
+
+#card-central p{
+    margin-bottom: 10px;
+}
+
+#totalValor{
+   margin-bottom: 50px; 
+}
+#opcoesPagamento li{
+    display: inline-block;
+}
+
+#opcoesPagamento li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+    background-color: yellowgreen;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+#opcoesPagamento li a:hover{
+    background-color: #FFD700;
+
+}
+
+#opcoesPagamento li a:link{
+    color: white;
+}
+
+#opcoesPagamento li a:visited{
+    color: white;
+}
+#opcoesPagamento li a:active{
+    color: white;
+}
+
+.dropdown-opcao{
+    position: absolute;
+    box-shadow: 0 0 2px black;
+    display: none;
+}
+
+.dropdown-opcao a{
+   
+}
+
+.dropdown:hover .dropdown-opcao{
+    display: flex;
+    flex-direction: column;
+}
