@@ -71,7 +71,8 @@ p{
 }
 
 #opcoesPagamento li a:hover{
-    background-color: #FFD700;
+    background-color: #228B22;
+    cursor: pointer;
 
 }
 
