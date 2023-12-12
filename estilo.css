@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+#contador, #botoes, #opcoesPagamento {
+    text-align: center;
+    margin: 20px;
+}
+
+#contador p{
+    margin-bottom: 10px;
+}
+
+#opcoesPagamento li{
+    display: inline-block;
+}
+
+#opcoesPagamento li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+    background-color: yellowgreen;
+
+}
+
+#opcoesPagamento li a:hover{
+    background-color: yellow;
+
+}
+
+#opcoesPagamento li a:link{
+    color: white;
+}
+
+#opcoesPagamento li a:visited{
+    color: white;
+}
+
+.dropdown-opcao{
+    position: absolute;
+    box-shadow: 0 0 2px black;
+    display: none;
+}
+
+.dropdown-opcao a{
+   
+}
+
+.dropdown:hover .dropdown-opcao{
+    display: flex;
+    flex-direction: column;
+}
